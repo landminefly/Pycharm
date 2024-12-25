@@ -1,0 +1,72 @@
+# PyCharm specific
+.idea/
+
+# Python Bytecode files
+__pycache__/
+*.py[cod]
+
+# Python virtual environments (Anaconda environments)
+# Common Anaconda environment directories:
+env/
+venv/
+*.conda/
+*.env/
+# If you're using conda in the root project directory:
+# anaconda3/
+# .conda/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+
+# macOS system files
+.DS_Store
+
+# Test/coverage reports
+coverage/
+*.cover
+*.hypothesis/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# mypy
+.mypy_cache/
+
+# VSCode settings (optional if you use VSCode too)
+.vscode/
+
+# Pytest cache
+.cache/
+
+# JetBrains specific
+*.iml
+
+# Anaconda specific files
+# Anaconda-specific config files:
+conda-meta/
+# Package specific configurations:
+*.lock
+
+# Other environment-related files
+.env
+.env.*.local
